@@ -1,0 +1,772 @@
+/* Custom media queries for smooth automation */
+
+
+
+/* ================= IMPORTANT ================= */
+
+@media (max-width: 767px){
+    #colnav-1 {
+        position: absolute;
+        top: 80px;
+        width: 105%;
+        left: 1%;
+        border-color: transparent;
+        background-color: rgba(0,0,0,0.8);
+    }
+}
+
+@media (max-width: 525px){
+    #colnav-1 {
+        top: 60px;
+    }
+}
+
+
+
+
+
+
+
+
+
+/* ~~~~~~ */
+
+
+
+
+/* ================= Main Page ================= */
+/* ------------------ Navbar ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 991px) {
+    .miaban_landing_leftside_menu {
+        position: relative;
+        left: -25%;
+    }
+}
+@media (max-width: 868px) {
+    .miaban_landing_leftside_menu {
+        position: relative;
+        left: -20%;
+    }
+}
+@media (max-width: 830px) {
+    .miaban_landing_leftside_menu {
+        position: relative;
+        left: -11%;
+    }
+}
+@media (max-width: 767px) {
+    .miaban_landing_leftside_menu {
+        position: relative;
+        left: 0;
+    }
+}
+
+
+
+
+/* ------------------ Header ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media screen and (max-width: 1120px){
+    .carousel-inner > .item {height: 680px;}
+}
+
+@media screen and (max-width: 991px){
+    .carousel-inner > .item {height: 640px;}
+}
+
+
+@media (max-width: 880px) {
+    .carousel-inner > .item {height: 580px;}
+    ol.carousel-indicators {display: none;}
+    .h_banner_holder {left: 3%;}
+    h4.welcome_ttl {font-size: 2.2rem;}
+    p.welcome_text {font-size: 1.2rem;}
+    button.create_pj_btn {padding: 12px 60px 12px 60px; font-size: 1.4rem;}
+}
+
+@media (max-width: 767px) {
+    .carousel-inner > .item {height: 510px;}
+    p.welcome_text {margin-top: 1%; margin-bottom: 2%; width: 95%;}
+    h4.welcome_ttl {margin-top: 4%;}
+}
+
+@media (max-width: 700px) {
+    .carousel-inner > .item {height: 470px;}
+    .h_banner_holder {left: 1%;}
+    .logo_holder {padding-left: 40%;}
+    h4.welcome_ttl {font-size: 2rem; margin-top: 12%;}
+    p.welcome_text {font-size: 1.1rem;}
+    button.create_pj_btn {font-size: 1.1rem;}
+
+    .miabanmainslide {height: 70vw !important;}
+}
+
+@media screen and (max-width: 630px){
+    .carousel-inner > .item {height: 440px;}
+}
+
+@media (max-width: 555px){
+    .carousel-inner > .item {height: 410px;}
+    .logo_holder {padding-left: 37%;}
+    h4.welcome_ttl {font-size: 1.8rem; margin-top: 15%;}
+    p.welcome_text {font-size: 1rem;}
+
+    .miabanmainslide {height: 75vw !important;}
+}
+
+@media (max-width: 500px){
+    .carousel-inner > .item {height: 370px;}
+    h4.welcome_ttl {display: none;}
+    p.welcome_text {display: none;}
+    button.create_pj_btn {margin-left: 88%; margin-top: 45%;}
+}
+
+@media (max-width: 450px){
+    .carousel-inner > .item {height: 330px;}
+    button.create_pj_btn {margin-left: 80%;}
+
+    .logo_holder {padding-left: 32%;}
+    .h_banner_holder {left: -3%;}
+}
+
+@media (max-width: 430px){
+    button.create_pj_btn {margin-left: 70%; margin-top: 55%;}
+
+    .navbar-default .navbar-nav.miaban_landing_leftside_menu li a,
+    .navbar-default .navbar-nav.miaban_landing_rightside_lang_menu li a
+
+    {font-size: 0.9rem;}
+}
+@media (max-width: 400px){
+    .carousel-inner > .item {height: 300px;}
+    button.create_pj_btn {margin-left: 65%; margin-top: 60%;}
+}
+@media (max-width: 360px){
+    .carousel-inner > .item {height: 260px;}
+    button.create_pj_btn {margin-left: 50%; margin-top: 65%; font-size: 1rem;}
+    .logo_holder {padding-left: 31%;}
+}
+@media (max-width: 320px){
+    button.create_pj_btn {margin-left: 44%; font-size: 1rem;}
+    .logo_holder {padding-left: 31%;}
+    .miabanmainslide {height: 79vw !important;}
+}
+
+
+
+
+/* ------------------ Our Mission ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 767px){
+    .mission_area {padding-top: 55px;}
+    .mission_image_holder {margin-right: 0; padding-left: 21%;}
+    img.missionimage {right: 7%;}
+    .mission_info_holder {padding: 5%;}
+    h4.mission_ttl {text-align: center; font-size: 2.1rem;}
+    p.mission_text {text-align: center;}
+    button.mission_btn {display: block; margin: 0 auto;}
+}
+@media (max-width: 720px){
+    img.missionimage {right: 11%;}
+}
+@media (max-width: 699px){
+    .mission_area {padding-bottom: 25px;}
+}
+@media (max-width: 414px){
+    .mission_area {padding-bottom: 55px;}
+    h4.mission_ttl {text-align: center; font-size: 1.6rem;}
+    button.mission_btn {font-size: 1.2rem;}
+}
+
+
+
+
+/* ------------------ Explore Projects ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 1060px){
+    .explore_area {height: 48vw;}
+}
+
+@media (max-width: 991px){
+    .explore_area {padding-top: 61px;}
+    h4.explore_ttl {font-size: 2.2rem;}
+    h3.projectitle {font-size: 1rem;}
+    ul.projectlist li a {width: 85%;}
+    .all_categories {font-size: 1.2rem;}
+}
+
+@media (max-width: 820px){
+    .explore_area {padding-top: 41px;}
+}
+
+@media (max-width: 767px){
+    .explore_area {height: 51vw;}
+    ul.projectlist li {width: 19%;}
+}
+
+@media (max-width: 660px){
+    h4.explore_ttl {font-size: 2rem;}
+    h3.projectitle {font-size: 0.9rem;}
+    ul.projectlist li a {width: 75%;}
+}
+
+@media (max-width: 609px){
+    ul.projectlist li {width: 45%;}
+    .explore_area {height: 140vw;}
+    .all_categories {clear: both;}
+    h3.projectitle {margin-bottom: 30%;}
+}
+
+@media (max-width: 525px){
+    .explore_area {height: 150vw;}
+}
+@media (max-width: 440px){
+    .explore_area {height: 164vw;}
+    img.project_logo {margin-bottom: 4px;}
+    h3.projectitle {margin-bottom: 50%;}
+    h4.explore_ttl {font-size: 1.7rem; margin-bottom: 12%;}
+}
+
+@media (max-width: 360px){
+    .explore_area {height: 175vw;}
+}
+
+
+
+
+/* ------------------ Ongoing Projects ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 991px){
+    h2.ongoing_ttl {font-size: 2.1rem;}
+    p.ongoing_info {font-size: 0.9rem; min-height: 160px;}
+    img.ongoing_pj {margin-bottom: 6%;}
+}
+
+@media (max-width: 767px){
+    .ongoing_projects_area {padding-left: 5%;}
+}
+
+@media (max-width: 555px){
+    p.ongoing_info {font-size: 1rem; min-height: 120px;}
+    .all_ongoings {font-size: 1.2rem;}
+}
+
+
+
+
+
+/* ------------------ Feedback ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 991px){
+    p.feedback_text {width: 90%;}
+    .names_and_status_holder {margin-left: 0;}
+}
+
+@media (max-width: 767px){
+    p.feedback_text {font-size: 1rem;}
+    .other_feedback_area {padding-left: 3%;}
+}
+
+@media (max-width: 600px){
+    .names_and_status_holder {margin-left: 24%;}
+}
+
+@media (max-width: 525px){
+    p.feedback_text {width: 95%;}
+}
+
+@media (max-width: 440px){
+    p.feedback_text {font-size: 0.9rem;}
+}
+
+@media (max-width: 360px){
+    p.feedback_text {font-size: 1.1rem;}
+    .names_and_status_holder {margin-left: 0;}
+}
+
+
+
+
+
+/* ------------------ Footer ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 1099px){
+    ul.socialize {width: 110%;}
+}
+@media (max-width: 991px){
+    ul.socialize {width: 150%;}
+    ul.footmenu {width: 130%;}
+    .epilogue {position: relative; left: 35%; width: 80%;}
+}
+
+@media (max-width: 825px){
+    ul.socialize {position: relative; right: 30%;}
+}
+
+@media (max-width: 767px){
+    ul.socialize {right: 5%;}
+    ul.footmenu {left: 20%;}
+    .epilogue {top: -25px; left: 55%;}
+}
+
+@media (max-width: 635px){
+    ul.footmenu {left: 16%;}
+    .epilogue {left: 51%;}
+}
+
+@media (max-width: 595px){
+    ul.socialize {right: 9%;}
+    ul.footmenu {left: 9%;}
+    .epilogue {left: 44%;}
+}
+
+@media (max-width: 520px){
+    ul.footmenu {left: 2%;}
+    .epilogue {left: 38%; top: -18px;}
+}
+
+@media (max-width: 465px){
+    ul.footmenu {left: 0;}
+    .epilogue {left: 35%; top: -18px;}
+    ul.footmenu li a {font-size: 0.6571rem;}
+    .epilogue {font-size: 0.6571rem;}
+}
+
+@media (max-width: 360px){
+    .footerlogo {width: 23%;}
+    .epilogue {left: 28%; top: -6%;}
+    ul.socialize {top: 12px;}
+}
+
+@media (max-width: 320px){
+    ul.socialize {right: 14%;}
+    ul.socialize li a > .fa {font-size: 1.3rem;}
+    ul.footmenu li a {font-size: 0.573rem;}
+}
+
+
+
+
+
+/* ---------- */
+/* --------------- */
+/* -------------------- */
+/* --------------- */
+/* ---------- */
+
+
+
+/* ------------------ Inner navbar ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 767px) {
+    .miabrand {padding-top: 0; margin-bottom: 30px;}
+    .miaban_inner_logo {margin-top: 6%;}
+    .inner_collapse_button {top: 23px;}
+    #colnav-2 {border-color: transparent;}
+    .riteside {text-align: center; float: none;}
+    .navbar-default .navbar-nav.inner_lang_list {float: none;}
+}
+
+
+
+
+
+
+
+/* ------------------ Inner header ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 1050px) {
+    .innersection_button_holder {right: 6%;}
+}
+
+@media (max-width: 991px) {
+    a.inner_menu_btn, a.main_menu_btn {font-size: 1rem; width: 150%;}
+    h2.sub_category_ttl {font-size: 2.2rem;}
+    p.sub_category_info {font-size: 1rem;}
+}
+
+@media (max-width: 835px) {
+    .innersection_button_holder {right: 12%;}
+}
+
+@media (max-width: 767px) {
+    .innersection_button_holder {right: -3%;}
+    .inner_header_area {padding-left: 35%; padding-bottom: 20%;}
+    a.inner_menu_btn, a.main_menu_btn {font-size: 1rem; width: 95%;}
+}
+
+@media (max-width: 680px) {
+    .inner_header_area {padding-left: 29%; background-position: 0 -70px;}
+}
+
+@media (max-width: 525px) {
+    .innersection_button_holder {right: -6%;}
+    .inner_header_area {min-height: 340px;}
+}
+
+@media (max-width: 501px) {
+    .innersection_button_holder {right: -8%;}
+    .innersection_ttl_holder h2 {font-size: 2.2rem;}
+    button.inner_projectstarter {font-size: 1.2rem; padding: 10px 46px 10px 46px}
+}
+
+@media (max-width: 414px) {
+    .inner_header_area {padding-left: 22%; background-position: 0 -38px;}
+}
+
+@media (max-width: 375px) {
+    .innersection_button_holder {right: -10%;}
+}
+
+@media (max-width: 330px) {
+    .inner_header_area {padding-left: 11%; background-position: 0 -69px;}
+}
+
+
+
+
+
+
+
+/* ------------------ Inner mainmid area ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 360px) {
+    h4.media_ttl {font-size: 1rem;}
+    p.media_info {font-size: 0.9rem;}
+}
+
+
+
+
+
+
+/* ------------------ Coming Soon ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 991px){
+    .h_banner_holder_cs {margin-top: 30%; left: 2%;}
+}
+
+@media (max-width: 810px){
+    .h_banner_holder_cs {margin-top: 30%; left: 4%;}
+}
+
+@media (max-width: 767px){
+    .h_banner_holder_cs {left: 0;}
+    .logo_holder.cs {padding-left: 40%;}
+    p.welcome_text_cs {font-size: 1.2rem;}
+}
+
+@media (max-width: 700px){
+    .h_banner_holder_cs {margin-top: 40%;}
+}
+
+@media (max-width: 590px){
+    .logo_holder.cs {padding-left: 38%;}
+    .h_banner_holder_cs {margin-top: 48%;}
+}
+
+@media (max-width: 520px){
+    .logo_holder.cs {padding-left: 36%;}
+    .h_banner_holder_cs {margin-top: 53%;}
+}
+
+@media (max-width: 455px){
+    .logo_holder.cs {padding-left: 34%;}
+    .h_banner_holder_cs {margin-top: 58%;}
+}
+
+@media (max-width: 414px){
+    .logo_holder.cs {padding-left: 31%;}
+    .h_banner_holder_cs {margin-top: 61%;}
+    button.create_pj_btn_cs {margin-bottom: 15%;}
+}
+
+@media (max-width: 400px){
+    h4.welcome_ttl_cs {font-size: 2.2rem;}
+    p.welcome_text_cs {font-size: 1.1rem; margin-bottom: 10%;}
+    button.create_pj_btn_cs {font-size: 1.4rem;}
+}
+
+@media (max-width: 360px){
+    .logo_holder.cs {padding-left: 30%;}
+    .h_banner_holder_cs {margin-top: 75%;}
+}
+
+@media (max-width: 330px){
+    .logo_holder.cs {padding-left: 28%;}
+}
+
+
+
+
+
+
+
+/* -------- */
+
+
+
+
+
+/* ------------------ Inner Project Page ------------------ */
+/* LG */
+
+
+
+
+/* SM/XS */
+@media (max-width: 767px) {
+    .inner_header_area.pjpage_area {padding-bottom: 20%; min-height: 215px;}
+    h2.pjpage_ttl {margin-left: 5%; font-size: 1.8rem;}
+    .ongoing_item.pjpage_bottommargin {margin-bottom: 18%;}
+}
+
+@media (max-width: 680px) {
+    .inner_header_area.pjpage_area {background-position: 0 -70px;}
+}
+
+@media (max-width: 414px) {
+    .inner_header_area.pjpage_area {background-position: 0 -38px;}
+    h2.pjpage_ttl {margin-left: 5%; font-size: 1.4rem;}
+}
+
+@media (max-width: 330px) {
+    .inner_header_area.pjpage_area {background-position: 0 -69px;}
+}
+
+
+
+
+
+
+/* -------- */
+
+
+
+
+
+/* ------------------ Coming Soon ------------------ */
+/* LG */
+
+
+
+
+
+/* SM/XS */
+@media screen and (max-width: 1199px){
+    ul.aside_socialize li a {
+        width: 60px;
+        height: 60px;
+        padding-top: 8px;
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 991px){
+    ul.aside_socialize li a {
+        width: 42px;
+        height: 42px;
+        padding-top: 7px;
+        font-size: 1.4rem;
+    }
+
+    .artist_main_pic_holder {height: 280px;}
+
+    a.banklogo img {width: 45%;}
+    img.visamastercard_secure_logo {width: 75%;}
+}
+
+@media screen and (max-width: 767px){
+    .inner_project_leftaside {width: 80%; margin: 0 auto;}
+    h2.leftaside_ttl {margin-bottom: 24px;}
+
+    .progress.fullwidth_progress {width: 100%;}
+    input.donation_input {width: 100%;}
+    a.donate_sbmt {width: 100%;}
+
+    a.banklogo img {width: 20%;}
+    img.visamastercard_secure_logo {width: 40%;}
+
+    ul.aside_socialize li {padding-right: 28px;}
+
+    p.extra_info {margin-bottom: 45px;}
+}
+
+@media screen and (max-width: 742px){
+    ul.aside_socialize li {padding-right: 22px;}
+}
+@media screen and (max-width: 682px){
+    ul.aside_socialize li {padding-right: 16px;}
+}
+@media screen and (max-width: 622px){
+    ul.aside_socialize li {padding-right: 12px;}
+}
+@media screen and (max-width: 582px){
+    ul.aside_socialize li {padding-right: 8px;}
+}
+
+@media screen and (max-width: 682px){
+    ul.aside_socialize li a {
+        width: 55px;
+        height: 55px;
+        padding-top: 9px;
+        font-size: 1.8rem;
+    }
+
+    ul.aside_socialize li {padding-right: 40px;}
+}
+
+@media screen and (max-width: 670px){
+    a.youtube_sbscrb {background-size: contain;}
+}
+
+@media screen and (max-width: 575px){
+    img.media_source {width: 70%;}
+}
+
+@media screen and (max-width: 512px){
+    ul.aside_socialize li {padding-right: 34px;}
+
+    a.banklogo img {width: 35%;}
+    img.visamastercard_secure_logo {width: 55%;}
+}
+
+@media screen and (max-width: 482px){
+    .inner_projects_midmain_area {padding-top: 1px;}
+
+    ul.aside_socialize li {padding-right: 28px;}
+
+    h3.artist_name {font-size: 1.5rem;}
+    h4.artist_activities {font-size: 1rem;}
+    small.artist_styles {font-size: 1rem;}
+}
+
+@media screen and (max-width: 460px){
+    .artist_main_pic_holder {height: 230px;}
+}
+
+@media screen and (max-width: 452px){
+    ul.aside_socialize li {padding-right: 22px;}
+}
+@media screen and (max-width: 422px){
+    h2.leftaside_ttl {font-size: 2.2rem;}
+
+    ul.aside_socialize li {padding-right: 16px;}
+}
+
+@media screen and (max-width: 400px){
+    img.media_source {width: 65%;}
+
+    ul.media_sources_list {display: inline-block;}
+    ul.media_sources_list li {padding-left: 30%;}
+
+    a.youtube_sbscrb {width: 100%; margin: 0 auto; right: 0;}
+}
+
+@media screen and (max-width: 392px){
+    .inner_project_leftaside {width: 90%;}
+
+    ul.aside_socialize li {padding-right: 24px;}
+}
+
+@media screen and (max-width: 383px){
+    ul.aside_socialize li {padding-right: 18px;}
+
+    .artist_main_pic_holder {height: 210px;}
+}
+
+@media screen and (max-width: 358px){
+    ul.aside_socialize li {padding-right: 14px;}
+
+    .artist_main_pic_holder {height: 200px;}
+}
+@media screen and (max-width: 338px){
+    ul.aside_socialize li a {
+        width: 42px;
+        height: 42px;
+        padding-top: 7px;
+        font-size: 1.4rem;
+    }
+
+    ul.aside_socialize li {padding-right: 24px;}
+
+    .artist_main_pic_holder {height: 180px;}
+}
+
+@media screen and (max-width: 326px){
+    ul.aside_socialize li {padding-right: 22px;}
+}
+
+
+
+/* ------- */
+/* --------- Ongoing Projects Dynamic Tweak MQs -------- */
+/* ------- */
+
+@media screen and (max-width: 991px){
+    .ongoingimagecontainer {min-height: 170px;}
+}
+
+@media screen and (max-width: 554px){
+    .ongoingimagecontainer {min-height: 250px;}
+}
+
+@media screen and (max-width: 400px){
+    .ongoingimagecontainer {min-height: 220px;}
+}
